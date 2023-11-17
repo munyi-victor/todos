@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "todo",
-    "slug": "todo",
+    "name": "ToDo App",
+    "slug": "todo-appcd",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.munyi_victor.todoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85d9cd85-eb00-4faf-8331-0824cf18ce7d"
+      }
+    },
+    "owner": "munyi_victor"
   }
 }
